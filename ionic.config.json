@@ -1,0 +1,7 @@
+{
+  "name": "Eigen Pilates",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
