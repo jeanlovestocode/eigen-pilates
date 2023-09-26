@@ -25,9 +25,9 @@ const Login: React.FC = () => {
   return (
     <div className="loginBody">
       <IonPage>
-        <IonHeader>
-          <IonToolbar color={"background-color"} className="ion-margin-top">
-            <IonTitle className="title">Eigen Pilates</IonTitle>
+        <IonHeader className="header">
+          <IonToolbar className="ion-margin-top header">
+            <IonTitle className="title header">Eigen Pilates</IonTitle>
           </IonToolbar>
         </IonHeader>
 
@@ -41,7 +41,7 @@ const Login: React.FC = () => {
           </div>
 
           <IonCard>
-            <IonCardContent>
+            <IonCardContent className="card">
               <form onSubmit={doLogin}>
                 <IonInput
                   label=""
@@ -71,22 +71,23 @@ const Login: React.FC = () => {
               <h5 className="ion-text-left ion-padding-top password">
                 Forgot password?
               </h5>
-              <div className="ion-text-center or">OR</div>
-              <div className="signInOptions">
-                <IonIcon
-                  icon={logoApple}
-                  className="icons ion-justify-content-center"
-                ></IonIcon>
-
-                <IonIcon
-                  icon={logoFacebook}
-                  className="icons ion-justify-content-center"
-                ></IonIcon>
-
-                <IonIcon
-                  icon={logoGoogle}
-                  className="icons ion-justify-content-center"
-                ></IonIcon>
+              <div className="line ion-margin-top"></div>
+              <div className="signInOptions ion-text-center ion-margin-top">
+                <span>
+                  <IonIcon
+                    icon={logoApple}
+                    className="icons ion-margin-horizontal"
+                  ></IonIcon>
+                </span>
+                <span>
+                  <IonIcon icon={logoFacebook} className="icons"></IonIcon>
+                </span>
+                <span>
+                  <IonIcon
+                    icon={logoGoogle}
+                    className="icons ion-margin-horizontal"
+                  ></IonIcon>
+                </span>
               </div>
               <div className="linkToSignUp ion-text-center ios-margin-bottom">
                 <span className="noAccount">Don't have an account? </span>
