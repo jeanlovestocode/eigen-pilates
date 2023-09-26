@@ -1,0 +1,56 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 300px;
+}
+
+.loginForm {
+  background: #242836;
+  color: #5f6681;
+  opacity: 80%;
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+.loginButton {
+  background: #6a64ff;
+  color: #f8f8f8;
+  border-radius: 4px;
+  font-size: 13px;
+  padding: 5px;
+}
+
+.icons {
+  border-radius: 4px;
+  width: 36.08;
+  border: 1px solid #f4f4f4;
+  background: #f8f8f8;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.linkToSignUp {
+  font-size: 14px;
+  font-family: Helvetica;
+  margin-top: 10px;
+}
+
+.password {
+  color: #f8f8f8;
+}
+
+.or {
+  color: #f8f8f8;
+}
+
+.noAccount {
+  color: #f8f8f8;
+}
+
+.title {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
