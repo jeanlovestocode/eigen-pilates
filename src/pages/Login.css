@@ -2,14 +2,11 @@ a {
   text-decoration: none;
 }
 
-
 img {
   width: 300px;
 }
-.header{
-  /* background-color:-2px 1px 100px 100px rgba(106, 100, 255, 0.9); */
-  /* box-shadow: 2px 1px 100px 100px rgba(106, 100, 255, 0.9); */
-  box-shadow: 32.3730583190918px 32.3730583190918px 32.3730583190918px; 
+.header {
+  box-shadow: 32.3730583190918px 32.3730583190918px 32.3730583190918px;
   border-radius: 22px;
   background: #6a64ff;
   filter: blur(65px);
@@ -18,9 +15,19 @@ img {
 .loginForm {
   background: #242836;
   color: #5f6681;
-  opacity: 80%;
+  opacity: 90%;
   border-radius: 4px;
   font-size: 17px;
+  border: 1 solid #242836;
+}
+
+.card {
+  /* background-image: url(../media/login-page-photo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0; */
+  opacity: 70%;
 }
 
 .loginButton {
@@ -29,6 +36,7 @@ img {
   border-radius: 4px;
   font-size: 13px;
   padding: 5px;
+  border: 1 solid #6a64ff;
 }
 
 .icons {
@@ -61,12 +69,6 @@ img {
   color: #f8f8f8;
 }
 
-.title {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-   color: #f8f8f8;
-   text-shadow: 68px -56px 34px rgba(248, 248, 248, 1);
-}
 
 .line {
   border-bottom: 1px solid #f8f8f8;
@@ -74,3 +76,4 @@ img {
   width: 50px;
   margin: 0 auto;
 }
+
