@@ -62,7 +62,7 @@ const Login: React.FC = () => {
           </IonToolbar>
         </IonHeader>
 
-        <IonContent scrollY={false} className="body ion-padding">
+        <IonContent className="body ion-padding">
           <IonGrid fixed>
             <IonRow class="ion-justify-content-center">
               <IonCol size="12" sizeMd="8" sizeLg="6" sizeXl="4">
