@@ -43,7 +43,7 @@ const Register: React.FC = () => {
           </IonToolbar>
         </IonHeader>
 
-        <IonContent  className="body">
+        <IonContent scrollY={false} className="body">
           <IonGrid fixed>
             <IonRow class="ion-justify-content-center">
               <IonCol size="12" sizeMd="8" sizeLg="6" sizeXl="4">
